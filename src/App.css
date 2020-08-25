@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(100deg, #8892b0 50%, #a8b2d1 0);
+  /* background: linear-gradient(100deg, #00e6e6 50%, #00ffff 0); */
+  /* background: linear-gradient(100deg, rgb(182, 40, 111) 50%, #ac2066 0); */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: #0a192f;
+  width: 30%;
+  min-width: 450px;
+  height: 500px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 480px){
+  .app-wrapper{
+    min-width: 330px;
+  }
+}
+@media (max-width: 340px){
+  .app-wrapper{
+    min-width: 300px;
+    height: 450px;
+  }
+}
+@media (max-width: 310px){
+  .app-wrapper{
+    min-width: 260px;
+    height: 400px;
+  }
+}
+
+.header h1 {
+  color: #ccc;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 20px 30px 20px;
+  font-family: 'Josefin Slab', serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list {
+  width: 100%;
+  margin: auto;
+  max-height: 230px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+@media (max-width: 340px){
+  .list{
+    max-height: 190px;
+  }
+}
+@media (max-width: 310px){
+  .list{
+    max-height: 150px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+
+.task-input {
+  width: 350px;
+  min-width: 250px;
+  padding: 15px 10px 10px 20px;
+  margin-right: 10px;
+  font-family: 'Josefin Sans', serif;
+  font-size: 15px;
+  color: #ccc;
+  background-color: #1d222b;
+  border: 1px solid #444;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 480px){
+  .task-input{
+    width: 100px;
+  }
+}
+@media (max-width: 310px){
+  .task-input{
+    min-width: 200px;
+  }
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  margin: 20px 20px 0 0;
+}
+
+.add-task-btn {
+  min-width: 100px;
+  background-color: #790e43;
+  color: #ccc;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  cursor: pointer;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-bottom: 5px;
+}
+
+.list-item span {
+  color: #999;
+}
+
+.task-btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.btn-delete i {
+  font-size: 16px;
+  color: #bbb;
+  margin-right: 20px;
+}
+
+.btn-edit i {
+  font-size: 16px;
+  color: #bbb;
+  margin-right: 20px;
+}
+
+.clear-btn {
+  width: 100px;
+  height: 35px;
+  background-color: #790e43;
+  color: #ccc;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  cursor: pointer;
+}
+
+.no-tasks {
+  color: #777;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.github a{
+  text-decoration: none;
+  color: #0d213f;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+.github{
+  position: relative;
+  margin-top:250px;
+  margin-left: 26%;
+}
+@media (max-width: 480px){
+  .github{
+    margin-top:250px;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 340px){
+  .github{
+    margin-top:190px;
+    margin-left: 7%;
+  }
+}
