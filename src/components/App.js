@@ -9,6 +9,9 @@ const App = () => {
   return(
 
     <TaskListContextProvider>
+    <div className="github"> 
+      <a href="https://github.com/Viraaaj/My-Tasks" target="_blanck">My-Tasks/Viraj</a> 
+    </div>
 
       <div className="container">
         <div className="app-wrapper">
@@ -18,14 +21,12 @@ const App = () => {
               <TaskForm/>
               <TaskList/>
           </div>
-          <div className="github"> <a href="https://github.com/Viraaaj/My-Tasks" target="_blanck">My-Tasks/Viraj</a> </div>
+
+          {/* <div className="github"> <a href="https://github.com/Viraaaj/My-Tasks" target="_blanck">My-Tasks/Viraj</a> </div> */}
+          
+    
         </div>
-        
       </div>
-
-      
-
-
     </TaskListContextProvider>
     
   ) 
