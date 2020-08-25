@@ -208,24 +208,24 @@
 }
 .github{
   position: absolute;
-  margin-top:650px;
-  margin-left: 45%;
+  margin-top:500px;
+  margin-left: 8%;
 }
 @media (max-width: 991px){
   .github{
-    margin-top:670px;
-    margin-left: 40%;
+    margin-top:500px;
+    margin-left: 12%;
   }
 }
 @media (max-width: 480px){
   .github{
-    margin-top:670px;
-    margin-left: 25%;
+    margin-top:500px;
+    margin-left: 12%;
   }
 }
 @media (max-width: 340px){
   .github{
-    margin-top:670px;
-    margin-left: 20%;
+    margin-top:430px;
+    margin-left: 8%;
   }
 }
