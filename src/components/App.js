@@ -9,12 +9,12 @@ const App = () => {
   return(
 
     <TaskListContextProvider>
-    <div className="github"> 
-      <a href="https://github.com/Viraaaj/My-Tasks" target="_blanck">My-Tasks/Viraj</a> 
-    </div>
 
       <div className="container">
         <div className="app-wrapper">
+          <div className="github"> 
+            <a href="https://github.com/Viraaaj/My-Tasks" target="_blanck">My-Tasks/Viraj</a> 
+          </div>
           <Header/>
 
           <div className="main">
