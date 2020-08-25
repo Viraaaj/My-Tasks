@@ -213,19 +213,19 @@
 }
 @media (max-width: 991px){
   .github{
-    margin-top:600px;
+    margin-top:670px;
     margin-left: 40%;
   }
 }
 @media (max-width: 480px){
   .github{
-    margin-top:600px;
+    margin-top:670px;
     margin-left: 25%;
   }
 }
 @media (max-width: 340px){
   .github{
-    margin-top:570px;
+    margin-top:670px;
     margin-left: 20%;
   }
 }
